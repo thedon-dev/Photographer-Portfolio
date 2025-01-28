@@ -16,7 +16,7 @@ const Showcase = ({ img, detail, name }) => {
         }}
       ></div>
       <span className="smallFont">{detail}</span>
-      <p className="text-6xl headerFont">{name}</p>
+      <p className="text-5xl lg:text-6xl headerFont">{name}</p>
     </div>
   );
 };
@@ -49,7 +49,9 @@ const Portfolio = () => {
       <div className="relative py-20" id="portfolio">
         <span className="headerFont text-6xl absolute top-20 right-0">*</span>
         <div className="">
-          <h1 className="headerFont text-6xl">PORTFOLIO SHOWCASE</h1>
+          <h1 className="headerFont text-5xl lg:text-6xl">
+            PORTFOLIO SHOWCASE
+          </h1>
           <p className="smallFont my-5 lg:w-1/2">
             Each Photograph in this collection has been carefully curated to
             tell a story , evoke emotions, and capture the beauty of the world

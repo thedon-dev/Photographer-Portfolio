@@ -27,18 +27,18 @@ const MainPage = () => {
     <>
       <div className="px-[5%] pt-8 py-3">
         <nav className="flex flex-col-reverse lg:flex-row gap-y-5 justify-between 2xl:container mx-auto">
-          <div className="flex gap-5 items-center justify-center">
+          <div className="flex gap-3 lg:gap-5 items-center justify-center">
             {navLinks.map((link, index) => (
               <a
                 key={index}
                 href={link.link}
-                className="text lg:text-base p-2 secondFont"
+                className="text-sm lg:text-base p-2 secondFont"
               >
                 {link.name}
               </a>
             ))}
           </div>
-          <div className="text-sm lg:text-base secondFont justify-center flex items-center gap-3">
+          <div className="text-xs lg:text-base secondFont justify-center flex items-center gap-3">
             <span className="">jpegbyprince@gmail.com</span>
             <a href="" className="border px-4 py-2 rounded-full">
               Let's Connect
@@ -49,7 +49,7 @@ const MainPage = () => {
 
       <main className="px-[5%]" id="explore">
         <div className="2xl:container mx-auto">
-          <h1 className="headerFont flex justify-between text-[2.5rem] lg:text-[9rem] tracking-[1.1rem] lg:tracking-[2.5rem]">
+          <h1 className="headerFont flex justify-between text-[2rem] lg:text-[9rem] tracking-[1rem] lg:tracking-[2.5rem]">
             <span>Prince</span>
             <span>Rufus</span>
           </h1>

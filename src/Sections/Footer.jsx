@@ -26,13 +26,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-20">
-          <div className="w-[25rem]">
+          <div className="w-[15rem] lg:w-[25rem]">
             <img src={map} alt="" />
           </div>
         </div>
       </div>
       <div className="flex items-center justify-center smallFont py-5">
-        <p className="flex items-center text-white">
+        <p className="text-sm lg:text-base flex items-center text-white">
           jpegbyprince
           <CgCopyright />
           2021-2025, All Rights Reserved

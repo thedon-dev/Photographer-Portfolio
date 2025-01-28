@@ -49,9 +49,10 @@ const MainPage = () => {
 
       <main className="px-[5%]" id="explore">
         <div className="2xl:container mx-auto">
-          <h1 className="headerFont flex justify-between text-[2rem] lg:text-[9rem] tracking-[1rem] lg:tracking-[2.5rem]">
-            <span>Prince</span>
-            <span>Rufus</span>
+          <h1 className="headerFont text-center flex justify-between text-[2rem] lg:text-[7rem] tracking-[1rem] lg:tracking-[2.5rem]">
+            {/* <span>Prince</span>
+            <span>Rufus</span> */}
+            <p>JPEGBYPRINCE</p>
           </h1>
           <div
             className="relative h-[35rem] lg:h-[45rem] w-full rounded-md"

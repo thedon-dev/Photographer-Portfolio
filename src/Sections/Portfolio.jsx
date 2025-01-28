@@ -8,7 +8,7 @@ const Showcase = ({ img, detail, name }) => {
   return (
     <div className="">
       <div
-        className="h-[50rem] mb-5"
+        className="h-[35rem] lg:h-[50rem] mb-5"
         style={{
           backgroundImage: `url(${img})`,
           backgroundSize: "cover",
@@ -46,17 +46,17 @@ const Portfolio = () => {
   ];
   return (
     <>
-      <div className="relative my-20 mt-32">
-        <span className="headerFont text-6xl absolute top-0 right-0">*</span>
+      <div className="relative py-20 mt-32" id="portfolio">
+        <span className="headerFont text-6xl absolute top-20 right-0">*</span>
         <div className="">
           <h1 className="headerFont text-6xl">PORTFOLIO SHOWCASE</h1>
-          <p className="smallFont my-5 w-1/2">
+          <p className="smallFont my-5 lg:w-1/2">
             Each Photograph in this collection has been carefully curated to
             tell a story , evoke emotions, and capture the beauty of the world
             around us.
           </p>
         </div>
-        <div className="mt-10 grid grid-cols-2 gap-5 gap-y-20">
+        <div className="mt-10 grid lg:grid-cols-2 gap-5 gap-y-20">
           {showcases.map((showcase, index) => (
             <Showcase
               key={index}

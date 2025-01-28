@@ -28,3 +28,8 @@
   font-weight: 400;
   font-style: normal;
 }
+
+* {
+  scroll-behavior: smooth;
+  /* scroll-margin-top: 150px; */
+}

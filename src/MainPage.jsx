@@ -12,7 +12,7 @@ const MainPage = () => {
     },
     {
       name: "Portfolio",
-      link: "#explore",
+      link: "#portfolio",
     },
     {
       name: "Learn",
@@ -26,15 +26,19 @@ const MainPage = () => {
   return (
     <>
       <div className="px-[5%] pt-8 py-3">
-        <nav className="flex justify-between 2xl:container mx-auto">
-          <div className="flex gap-5 items-center">
+        <nav className="flex flex-col-reverse lg:flex-row gap-y-5 justify-between 2xl:container mx-auto">
+          <div className="flex gap-5 items-center justify-center">
             {navLinks.map((link, index) => (
-              <a key={index} href={link.link} className=" p-2 secondFont">
+              <a
+                key={index}
+                href={link.link}
+                className="text lg:text-base p-2 secondFont"
+              >
                 {link.name}
               </a>
             ))}
           </div>
-          <div className=" secondFont flex items-center gap-3">
+          <div className="text-xs lg:text-base secondFont justify-center flex items-center gap-3">
             <span className="">viktoh7351@gmail.com</span>
             <a href="" className="border px-4 py-2 rounded-full">
               Let's Connect
@@ -43,14 +47,14 @@ const MainPage = () => {
         </nav>
       </div>
 
-      <main className="px-[5%]">
+      <main className="px-[5%]" id="explore">
         <div className="2xl:container mx-auto">
-          <h1 className="headerFont flex justify-between text-[9rem] tracking-[2.5rem]">
+          <h1 className="headerFont flex justify-between text-[3rem] lg:text-[9rem] tracking-[1.2rem] lg:tracking-[2.5rem]">
             <span>Prince</span>
             <span>Rufus</span>
           </h1>
           <div
-            className="relative h-[45rem] w-full rounded-md"
+            className="relative h-[35rem] lg:h-[45rem] w-full rounded-md"
             style={{
               backgroundImage: `url(${img1})`,
               backgroundPosition: "center",
@@ -62,13 +66,13 @@ const MainPage = () => {
             </span>
           </div>
 
-          <div className="grid grid-cols-2 my-10 mt-20">
+          <div className="grid lg:grid-cols-2 my-10 mt-20">
             <div>
-              <h1 className="text-6xl font-bold lg:w-2/3 headerFont">
+              <h1 className="text-5xl lg:text-6xl font-bold lg:w-2/3 headerFont">
                 * IT'S ABOUT ME AND HOW I WORK
               </h1>
             </div>
-            <div className="smallFont text-lg">
+            <div className="mt-10 lg:mt-0 smallFont text-lg">
               <p className="">
                 Hi, I am Prince Rufus, a proffesional photographer based in Port
                 Harcourt city , <br /> I have been captivated by the power of

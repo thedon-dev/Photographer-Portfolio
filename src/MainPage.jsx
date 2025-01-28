@@ -15,12 +15,12 @@ const MainPage = () => {
       link: "#portfolio",
     },
     {
-      name: "Learn",
-      link: "#explore",
+      name: "Testimonial",
+      link: "#testimonial",
     },
     {
       name: "Contact",
-      link: "#explore",
+      link: "#contact",
     },
   ];
   return (
@@ -38,8 +38,8 @@ const MainPage = () => {
               </a>
             ))}
           </div>
-          <div className="text-xs lg:text-base secondFont justify-center flex items-center gap-3">
-            <span className="">viktoh7351@gmail.com</span>
+          <div className="text-sm lg:text-base secondFont justify-center flex items-center gap-3">
+            <span className="">jpegbyprince@gmail.com</span>
             <a href="" className="border px-4 py-2 rounded-full">
               Let's Connect
             </a>
@@ -49,7 +49,7 @@ const MainPage = () => {
 
       <main className="px-[5%]" id="explore">
         <div className="2xl:container mx-auto">
-          <h1 className="headerFont flex justify-between text-[3rem] lg:text-[9rem] tracking-[1.2rem] lg:tracking-[2.5rem]">
+          <h1 className="headerFont flex justify-between text-[2.5rem] lg:text-[9rem] tracking-[1.1rem] lg:tracking-[2.5rem]">
             <span>Prince</span>
             <span>Rufus</span>
           </h1>

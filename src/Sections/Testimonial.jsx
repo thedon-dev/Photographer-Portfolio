@@ -4,7 +4,7 @@ import { BsQuote } from "react-icons/bs";
 
 const Testimonial = () => {
   return (
-    <div id="testimonial" className="my-10">
+    <div id="testimonial" className="py-10">
       <h1 className="text-5xl lg:text-7xl headerFont">
         HEAR FROM* <br /> HAPPY CLIENT
       </h1>

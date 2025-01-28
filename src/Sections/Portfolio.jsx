@@ -46,7 +46,7 @@ const Portfolio = () => {
   ];
   return (
     <>
-      <div className="relative py-20 mt-32" id="portfolio">
+      <div className="relative py-20" id="portfolio">
         <span className="headerFont text-6xl absolute top-20 right-0">*</span>
         <div className="">
           <h1 className="headerFont text-6xl">PORTFOLIO SHOWCASE</h1>

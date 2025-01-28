@@ -25,23 +25,23 @@ const Portfolio = () => {
   const showcases = [
     {
       pic: img1,
-      detail: "Landscape / Photogrpahy",
-      name: "skateboard",
+      detail: "Portrait / Photogrpahy",
+      name: "concert",
     },
     {
       pic: img2,
-      detail: "Landscape / Photogrpahy",
-      name: "skateboard",
+      detail: "Portrait / Photogrpahy",
+      name: "model",
     },
     {
       pic: img3,
-      detail: "Landscape / Photogrpahy",
-      name: "skateboard",
+      detail: "Portrait / Photogrpahy",
+      name: "concert",
     },
     {
       pic: img4,
-      detail: "Landscape / Photogrpahy",
-      name: "skateboard",
+      detail: "Portrait / Photogrpahy",
+      name: "vibes",
     },
   ];
   return (

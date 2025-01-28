@@ -1,6 +1,8 @@
 import React from "react";
-import img1 from "./assets/IMG_7211.jpeg";
+import img1 from "./assets/IMG_7241.jpeg";
 import Portfolio from "./Sections/Portfolio";
+import Footer from "./Sections/Footer";
+import Testimonial from "./Sections/Testimonial";
 
 const MainPage = () => {
   const navLinks = [
@@ -23,7 +25,7 @@ const MainPage = () => {
   ];
   return (
     <>
-      <div className="px-[5%] py-8">
+      <div className="px-[5%] pt-8 py-3">
         <nav className="flex justify-between 2xl:container mx-auto">
           <div className="flex gap-5 items-center">
             {navLinks.map((link, index) => (
@@ -34,16 +36,16 @@ const MainPage = () => {
           </div>
           <div className=" secondFont flex items-center gap-3">
             <span className="">viktoh7351@gmail.com</span>
-            <button className="border px-4 py-2 rounded-full">
+            <a href="" className="border px-4 py-2 rounded-full">
               Let's Connect
-            </button>
+            </a>
           </div>
         </nav>
       </div>
 
       <main className="px-[5%]">
         <div className="2xl:container mx-auto">
-          <h1 className="headerFont flex justify-between text-[8rem] tracking-[2rem]">
+          <h1 className="headerFont flex justify-between text-[9rem] tracking-[2.5rem]">
             <span>Prince</span>
             <span>Rufus</span>
           </h1>
@@ -56,7 +58,7 @@ const MainPage = () => {
             }}
           >
             <span className="absolute text-white text-4xl thirdFont right-5 top-5">
-              @ 2023
+              {/* @ 2023 */}
             </span>
           </div>
 
@@ -69,13 +71,13 @@ const MainPage = () => {
             <div className="smallFont text-lg">
               <p className="">
                 Hi, I am Prince Rufus, a proffesional photographer based in Port
-                Harcourt city , I have been captivated by the power of visual
-                story telling, and photography allows me to freeze moments in
-                time and convey emotions through images.
+                Harcourt city , <br /> I have been captivated by the power of
+                visual story telling, and photography allows me to freeze
+                moments in time and convey emotions through images.
               </p>
               <p className="mt-7">
-                With a background in fine art and a keen eye for detail, I
-                appraoch each photography session as an opportunity to create
+                With a background in fine art and a keen eye for detail, <br />{" "}
+                I appraoch each photography session as an opportunity to create
                 art. Whether I'm capturing the joy and connection of a family,
                 the raw emotions of a wedding day, my goal is to evokea sense of
                 wonder and create images that resonate with viewers.
@@ -91,8 +93,11 @@ const MainPage = () => {
 
           {/* Portfolio Showcase */}
           <Portfolio />
+          <Testimonial />
         </div>
       </main>
+      {/* Footer */}
+      <Footer />
     </>
   );
 };

@@ -79,7 +79,7 @@ const MainPage = () => {
             <div className="mt-10 lg:mt-0 smallFont text-lg">
               <p className="">
                 Hi, I am Prince Rufus, a proffesional photographer based in Port
-                Harcourt city , <br /> I have been captivated by the power of
+                Harcourt city, <br /> I have been captivated by the power of
                 visual story telling, and photography allows me to freeze
                 moments in time and convey emotions through images.
               </p>

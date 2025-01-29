@@ -27,7 +27,7 @@ const Testimonial = () => {
             Working with Prince was an absolute pleasure. His talent and passion
             for photography truly shines through in every image he captures.
             From the initial consultation to the final product, his
-            proffesionalism and attention to detail were evident`at every step
+            professionalism and attention to detail were evident`at every step
             of the process.
           </p>
         </div>

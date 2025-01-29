@@ -1,7 +1,7 @@
 import React from "react";
 import map from "../assets/map.png";
 import { CgCopyright } from "react-icons/cg";
-import { FaLocationPin } from "react-icons/fa6";
+import { FaLocationPin, FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -31,11 +31,20 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center smallFont py-5">
+      <div className="flex items-center justify-center smallFont py-3">
         <p className="text-sm lg:text-base flex items-center text-white">
           jpegbyprince
           <CgCopyright />
           2021-2025, All Rights Reserved
+        </p>
+      </div>
+      <div className="smallFont text-sm py-5 text-center">
+        <p className="">Built by Victor Jack</p>
+        <p className="flex gap-2 flex justify-center">
+          <a href="https://x.com/iamvictorjack" className="mt-2">
+            {" "}
+            <FaXTwitter />{" "}
+          </a>
         </p>
       </div>
     </footer>
